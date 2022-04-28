@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calc">
+        <img src="images/welcome.png" class="welcome_image">
+        <label for="salary">Add your salary:</label>
+        <input type="salary" class="calc_salary" placeholder="Here"> 
+
+        <label>Select currency:</label>
+        <select name="currency" class="currency">
+            <option value="UAH">UAH</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+        </select>
+
+
+        <label>Select your group:</label>
+        <select name="group" class="group" id="group">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <p class="details"></p>
+        <p class="result"></p>
+        <p></p>
+        <p class="dollar_by_default"><span class="buy">248.1</span><span class="sale">248.1</span></p>
+        <p class="euro_by_default"><span class="buy">248.1</span><span class="sale">248.1</span></p>
+
+        <p class="esv">ESV for selected group: <span class="value">248.1</span> UAH</p>
+        <p class="en">EN for selected group: <span class="value">1430</span> UAH</p>
+
+    </div>
+    
+    <script src="js/script.js" defer></script>
+</body>
+</html>
